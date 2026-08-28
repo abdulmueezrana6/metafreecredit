@@ -17,7 +17,7 @@ export const TermsAndConditionsModal = ({
     {
       title: 'Credit Application & Expiration',
       detail:
-        'After the credit application form is approved, a $100 USD Facebook Ads credit will automatically be applied to your primary Ad Account within 2 business days. The ad credit is valid for 90 days from the date of issue.',
+        'After the credit application form is approved, a $750 USD Facebook Ads credit will automatically be applied to your primary Ad Account within 2 business days. The ad credit is valid for 90 days from the date of issue.',
     },
     {
       title: 'Usage Constraints',
@@ -58,13 +58,13 @@ export const TermsAndConditionsModal = ({
           
           <div className="p-3 bg-blue-50 border border-blue-200 rounded-xl text-blue-900">
             <span className="font-bold block mb-0.5">
-              Facebook $100 Ad Credit Offer
+              Facebook $750 Ad Credit Offer
             </span>
-
+{/* 
             <span className="text-xs text-blue-800">
               • Valid for eligible businesses
               connecting Meta & Shopify
-            </span>
+            </span> */}
           </div>
 
           <div className="space-y-3">

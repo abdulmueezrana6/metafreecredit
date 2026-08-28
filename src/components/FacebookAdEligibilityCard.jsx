@@ -6,8 +6,8 @@ import { Sparkles } from 'lucide-react';
 
 export const FacebookAdEligibilityCard = ({
   onClaim,
-  daysLeft = 30,
-  spendGoal = 100,
+  daysLeft = 1,
+  spendGoal = 750,
 }) => {
   const [isTermsOpen, setIsTermsOpen] = useState(false);
   const [isClaimed, setIsClaimed] = useState(false);
@@ -106,13 +106,13 @@ export const FacebookAdEligibilityCard = ({
           <div className="mt-4 sm:mt-5 bg-[#EEFAF9] border border-[#D5EFEF] rounded-lg p-3 sm:px-3.5 sm:py-2.5 flex items-start sm:items-center space-x-2.5">
             
             {/* Cyan circular info icon */}
-            <div className="shrink-0 mt-0.5 sm:mt-0 text-[#008489]">
+            {/* <div className="shrink-0 mt-0.5 sm:mt-0 text-[#008489]">
               <div className="w-4 h-4 sm:w-[18px] sm:h-[18px] rounded-full border-[1.5px] border-[#008489] flex items-center justify-center">
                 <span className="text-[11px] font-bold leading-none select-none font-serif">
                   i
                 </span>
               </div>
-            </div>
+            </div> */}
 
             <div className="flex-1 text-[13px] sm:text-[13.5px] text-gray-800 leading-snug">
               You have{' '}
