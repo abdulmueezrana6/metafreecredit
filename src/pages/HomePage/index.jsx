@@ -79,8 +79,7 @@ const HomePage = () => {
               <div id="section-facebook-eligibility">
                 <FacebookAdEligibilityCard
                   daysLeft={1}
-                  spendGoal={200}
-                  onClaim={() => handleClaimSuccess(100, 'META-SHOP-100')}
+                  spendGoal={750}
                 />
               </div>
 
