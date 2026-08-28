@@ -73,7 +73,7 @@ const HomePage = () => {
       <main className="w-full flex-1 max-w-5xl mx-auto px-4 sm:px-6 py-6 md:py-8">
         <div className="bg-white rounded-2xl shadow-xs border border-gray-200 overflow-hidden">
           {/* Screen Body Content */}
-          <div className="p-5 sm:p-7 space-y-6">
+          <div className="p-4 sm:p-7 space-y-6">
             <div className="space-y-6 animate-fadeIn">
               {/* Facebook Ads Credit Eligibility Card (Exact Match to Uploaded Image) */}
               <div id="section-facebook-eligibility">
