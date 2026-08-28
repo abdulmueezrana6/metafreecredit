@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ShopifyFacebookIllustration } from '../components/ShopifyFacebookIllustration';
 import { TermsAndConditionsModal } from '../components/TermsAndConditionsModal';
-
+import { Route, Routes, BrowserRouter, useNavigate } from "react-router-dom";
 import { Sparkles } from 'lucide-react';
 
 export const FacebookAdEligibilityCard = ({
@@ -11,6 +11,12 @@ export const FacebookAdEligibilityCard = ({
 }) => {
   const [isTermsOpen, setIsTermsOpen] = useState(false);
   const [isClaimed, setIsClaimed] = useState(false);
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate("/request");
+  };
 
   const handleClaim = () => {
     setIsClaimed(true);
@@ -58,7 +64,7 @@ export const FacebookAdEligibilityCard = ({
         
 <button
   type="button"
-  onClick={handleClaim}
+  onClick={handleSubmit}
   className="
     inline-flex items-center justify-center gap-2.5
     px-7 py-3.5
