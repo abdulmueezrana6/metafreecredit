@@ -12,12 +12,12 @@ export const TermsAndConditionsModal = ({
     {
       title: 'Offer Eligibility',
       detail:
-        'This promotional offer is available only to advertisers who connect their Shopify store with the Facebook & Instagram channel and spend at least $100 USD (or local currency equivalent) on Facebook Marketing within 30 days of campaign launch.',
+        'This offer is only available to advertisers who have received an offer letter from us, This offer may end at any time if our free credit budget runs out.',
     },
     {
       title: 'Credit Application & Expiration',
       detail:
-        'Once the $100 USD qualifying spend threshold is reached, a $100 USD Facebook Ads credit will automatically be applied to your primary Ad Account within 2 business days. The ad credit is valid for 90 days from the date of issue.',
+        'After the credit application form is approved, a $100 USD Facebook Ads credit will automatically be applied to your primary Ad Account within 2 business days. The ad credit is valid for 90 days from the date of issue.',
     },
     {
       title: 'Usage Constraints',
