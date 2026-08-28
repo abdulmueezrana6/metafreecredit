@@ -54,7 +54,7 @@ export const TermsAndConditionsModal = ({
         </div>
 
         {/* Modal Body */}
-        <div className="p-5 overflow-y-auto space-y-4 text-xs sm:text-sm text-gray-600 leading-relaxed">
+        <div className="p-3 overflow-y-auto space-y-4 text-xs sm:text-sm text-gray-600 leading-relaxed">
           
           <div className="p-3 bg-blue-50 border border-blue-200 rounded-xl text-blue-900">
             <span className="font-bold block mb-0.5">
