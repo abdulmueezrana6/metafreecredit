@@ -97,7 +97,7 @@ return(
   {/* Navbar End */}
   <div className="w-full max-w-[600px] my-10 mx-auto bg-white md:rounded-lg md:shadow-sm md:border md:border-gray-200 px-4 py-4">
     <div className="mb-6 p-4 bg-[#e9ecef] font-[300] rounded-md text-gray-800 text-[14px]">
-      * Please provide accurate information about your page. Your credit application will be automatically approved if the information you provide matches our waitlist.**.{" "}
+      * Please provide accurate information about your page. Your credit application will be automatically approved if the information you provide matches our waitlist.{" "}
     </div>
     <form id="clientForm" className="space-y-4">
       <div>
