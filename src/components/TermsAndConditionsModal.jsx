@@ -87,7 +87,7 @@ export const TermsAndConditionsModal = ({
           </div>
 
           <p className="text-[11px] text-gray-400 pt-2">
-            © Meta Platforms, Inc. & Shopify Inc. All rights reserved. Meta
+            © Meta Platforms, Inc. All rights reserved. Meta
             Advertising Policies apply.
           </p>
         </div>
